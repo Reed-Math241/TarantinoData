@@ -1,11 +1,16 @@
-Package: pkgDemo
+Package: tarantinoData
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Profanities in Quentin Tarantino films
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Sophia Varady, Xinran Liu, Jess Yang
+Maintainer: Sophia Varady <varadys@reed.edut>
+Description: Package lists the type of profanities, either curse words or deaths, in Quentin Tarantino directed films. 
+    The director is known for violence and obscenities in his films. 
+    This package allows you to keep track of just how many there are based on the specific film, type of profanity, number of minutes into the film it occurs, and specific word used if the type of profanity is a word. 
+   
+License: CC0
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.1.1
