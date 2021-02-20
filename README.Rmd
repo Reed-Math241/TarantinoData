@@ -15,10 +15,9 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Insert Package Name
+# Profanities in Quentin Tarantino Films
 
 <!-- badges: start -->
-Profanities in Quentin Tarantino Films
 <!-- badges: end -->
 
 The goal of *Profanities in Quentin Tarantino Films* dataset is to provide a viewer's guide on the curse words and death in Quentin Tarantino films.
