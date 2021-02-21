@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of *Profanities in Quentin Tarantino Films* dataset is to provide a viewer's guide on the curse words and death in Quentin Tarantino films.
+The goal of the *Profanities in Quentin Tarantino Films* dataset is to provide a viewer's guide on the curse words and deaths in Quentin Tarantino films. Quentin Tarantino is an American film director and screenwriter, known for his stylized violence. The dataset includes curse words and deaths from seven of the director's films. The large number of data points is indicative of the high amounts of profanities in his films, but you'll just have to see it to believe it!
 
 The dataset is the backstage story of the article *A Complete Catalog Of Every Time Someone Cursed Or Bled Out In A Quentin Tarantino Movie*(https://fivethirtyeight.com/features/complete-catalog-curses-deaths-quentin-tarantino-films/)
 
