@@ -6,7 +6,7 @@ output: github_document
 
 <!-- You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.  -->
 
-```{r, include = FALSE}
+```{r}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -36,7 +36,7 @@ devtools::install_github("Reed-Math241/pkgGrpg")
 
 
 ```{r example}
-library(tarantino_data)
+library(tarantinoData)
 ```
 
 

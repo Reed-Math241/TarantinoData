@@ -7,7 +7,6 @@ Maintainer: Sophia Varady <varadys@reed.edut>
 Description: Package lists the type of profanities, either curse words or deaths, in Quentin Tarantino directed films. 
     The director is known for violence and obscenities in his films. 
     This package allows you to keep track of just how many there are based on the specific film, type of profanity, number of minutes into the film it occurs, and specific word used if the type of profanity is a word. 
-   
 License: CC0
 Encoding: UTF-8
 LazyData: true
