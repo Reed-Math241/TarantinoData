@@ -39,6 +39,18 @@ devtools::install_github("Reed-Math241/pkgGrpg")
 
 ## Example
 
+What is the ratio of the curse and death in each movie?
+
 ``` r
 library(tarantinoData)
+tarantino_data <- readr::read_csv("https://raw.githubusercontent.com/fivethirtyeight/data/master/tarantino/tarantino.csv")
+curse_death_ratio <- tarantino_data %>%
+  count(movie, type)
+ratio <- curse_death_ratio %>%
+  as.data.frame() %>%
+  pivot_wider(names_from = type, values_from = n) %>%
+  rename(curse = "word") %>%
+  mutate(ratio = curse/death) %>%
+  arrange(desc(ratio))
+ratio
 ```
